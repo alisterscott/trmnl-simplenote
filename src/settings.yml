@@ -12,7 +12,7 @@ custom_fields:
 - keyname: simplenoteid
   field_type: string
   name: Simplenote ID
-  description: Part of the published share URL
+  description: Last part of the published share URL
   placeholder: TBHcfJ
   help_text: On your Simplenote note, choose ..., publish and copy link. Paste the bit after the /p/ (http://simp.ly/p/TBHcfJ becomes TBHcfJ)
 - keyname: about
