@@ -1,0 +1,25 @@
+---
+strategy: polling
+no_screen_padding: 'no'
+dark_mode: 'no'
+static_data: ''
+polling_verb: get
+polling_url: https://app.simplenote.com/p/{{simplenoteid}}
+polling_headers: ''
+polling_body: ''
+id: 236882
+custom_fields:
+- keyname: simplenoteid
+  field_type: string
+  name: Simplenote ID
+  description: Part of the published share URL
+  placeholder: TBHcfJ
+  help_text: On your Simplenote note, choose ..., publish and copy link. Paste the bit after the /p/ (http://simp.ly/p/TBHcfJ becomes TBHcfJ)
+- keyname: about
+  name: Plugin by Alister Scott
+  field_type: author_bio
+  category: productivity,life
+  description: Easily display a published <a href="https://simplenote.com/">Simplenote</a> document on your TRMNL
+  github_url: https://github.com/alisterscott/trmnl-simplenote
+name: Simplenote Published Note
+refresh_interval: 15
