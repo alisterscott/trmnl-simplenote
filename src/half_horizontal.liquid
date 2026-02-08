@@ -1,13 +1,14 @@
 <div class="layout layout--stretch">
   <div class="richtext richtext--left">
-    <div class="content gap--small" data-content-limiter="true">
+    <div class="content gap--small simplenotestart" data-content-limiter="true">
       {{ formatted }}
+      <div class="simplenoteend"></div>
     </div>
   </div>
 </div>
 
 <div class="title_bar">
-  <img src="https://app.simplenote.com/img/logo.png"/>
+  <img src="https://app.simplenote.com/img/logo.png" />
   <span class="title">Published with Simplenote</span>
   <span class="instance">
     http://simp.ly/p/{{ trmnl.plugin_settings.custom_fields_values.simplenoteid }}
